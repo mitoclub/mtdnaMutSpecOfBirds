@@ -1,9 +1,5 @@
 # Build bird tree
 
-## Devilworm name
-
-- *Halicephalobus mephisto*
-
 ## Environment
 
 - python 3.8+
@@ -178,13 +174,7 @@ python scripts/6.2.states2iqtree_format.py --anc data/interim/iqtree_runs/brun3/
 6.3 Caclulate MutSpec on most probable states
 
 ```bash
-python scripts/6.3.calculate_mutational_spectra.py
-```
-
-6.4 Caclulate MutSpec using state probabilities
-
-```bash
-python scripts/6.4.calculate_mutational_spectra_proba.py
+3.collect_mutations.py --tree data/interim/iqtree_runs/brun3/anc_kg.treefile --states data/interim/anc_kg_states_birds.tsv(?????) --states data/interim/leaves_birds_states.tsv --outdir data/processed/21.11.22 --gencode 5 --syn --syn4f --proba
 ```
 
 ## Stuff
